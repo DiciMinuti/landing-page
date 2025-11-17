@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.block-1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 200px;
+}
+
+.block-2 {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.block-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 200px;
+}
+
+.block-4 {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 200px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px 200px;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    flex: 1;
+    display: flex;
+    padding: 20px 40px;
+}
+
+.informaiton-header-text {
+    font-size: 36px;
+    /* the color should be white */
+    color: #1F2937;
+    font-weight: 900;
+}
