@@ -1,4 +1,8 @@
+/* font (google's roboto) */
+
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* type selectors */
 
 body {
     font-family: 'Roboto';
@@ -17,13 +21,15 @@ ul {
 
 button {
     height: 35px;
+    width: 90px;
     border-radius: 8px;
     background-color: #3882F6;
     color: #FFFFFF;
-    padding: 0 30px;
 }
 
-.container {
+/* blocks */
+
+.blocks {
     display: flex;
     flex: 1;
 }
@@ -39,6 +45,7 @@ button {
     background-color: #1F2937;
     justify-content: space-between;
     padding: 60px 200px;
+    gap: 40px;
 }
 
 .block-2 {
@@ -70,6 +77,8 @@ button {
     padding: 20px 200px;
 }
 
+/* font styles */
+
 .hero-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -86,26 +95,6 @@ button {
     font-weight: 900;
 }
 
-.header-list {
-    display: flex;
-    gap: 20px;
-}
-
-.call-to-action {
-    background-color: #3882F6;
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 40px;
-    border-radius: 8px;
-}
-
-.call-to-action-text {
-    display: flex;
-    flex-direction: column;
-}
-
 .information-header-text {
     font-size: 36px;
     color: #1F2937;
@@ -117,11 +106,57 @@ button {
     color: #F9FAF8;
 }
 
-.block-4-button {
-    border-style: solid;
-    border-color: #FFFFFF;
+/* header */
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+/* block-1 */
+
+.block-1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
 }
 
 .block-1-button {
     border: none;
+}
+
+.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #505050;
+    flex: 1;
+}
+
+/* block-2 */
+
+/* block-3 */
+
+/* block-4 */
+
+.call-to-action {
+    background-color: #3882F6;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 8px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-4-button {
+    border-style: solid;
+    border-color: #FFFFFF;
 }
