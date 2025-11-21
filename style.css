@@ -43,7 +43,6 @@ button {
 
 .block-1 {
     background-color: #1F2937;
-    justify-content: space-between;
     padding: 60px 200px;
     gap: 40px;
 }
@@ -52,7 +51,6 @@ button {
     background-color: #FFFFFF;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 40px 0px;
 }
 
@@ -60,8 +58,9 @@ button {
     background-color: #E5E7EB;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 60px 200px;
+    justify-content: right;
+    padding: 60px 280px;
+    gap: 20px;
 }
 
 .block-4 {
@@ -101,6 +100,19 @@ button {
     font-weight: 900;
 }
 
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.author-text {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+}
+
 .call-to-action-hero {
     font-size: 24px;
     color: #F9FAF8;
@@ -138,6 +150,12 @@ button {
 /* block-2 */
 
 /* block-3 */
+
+    /* .quote is not used. If included, it should be done here */
+
+.author {
+    margin-left: auto;
+}
 
 /* block-4 */
 
