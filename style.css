@@ -51,7 +51,8 @@ button {
     background-color: #FFFFFF;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0px;
+    padding: 40px 280px;
+    gap: 40px;
 }
 
 .block-3 {
@@ -98,6 +99,13 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+}
+
+.image-subtext {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
 }
 
 .quote-text {
@@ -148,6 +156,28 @@ button {
 }
 
 /* block-2 */
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+}
 
 /* block-3 */
 
